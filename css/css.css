@@ -1,85 +1,108 @@
 
 /* Reset */
 
-	html, body, div, h1, pre,img,strong, caption, article,footer, header,section, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;}
+  html, body, div, h1, header,section,video {
+    font-size: 100%;
+    font: inherit;}
 
 
 /* Basic */
 
-	body {
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
-		font-size: 16pt;
-		line-height: 1.75em;
-		font-weight: 300;
-		letter-spacing: 1px;
-		color: #3a3939;
-		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
-		-webkit-stroke: 0.25px;
-	}
+  body {
+    
+    background-attachment: fixed, fixed;
+    font-size: 16pt;
+    line-height: 1.75em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
 
-		header p {
-			display: block;
-			margin: 5em 0 0 0;
-			padding: 0 0 1.5em 0;
-		}
+    header p {
+      display: block;
+      margin: 5em 0 0 0;
+      padding: 0 0 1.5em 0;
+    }
 
-		p{
-			text-align: left
-		}
-		span{
-	font-size: 1.3em
+    p{
+      text-align: left
+    }
+
+    span{
+  font-size: 1.3em
 }
 /* Header */
 
-	#header {
-		position: relative;
-		color: #ffffff;
-		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
-		text-align: center;
-		margin: 0;
-		padding: 13em 0 3em 0;
-		cursor: default;
-	}
+  #header {
+    position: relative;
+    color: #ffffff;
+    text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+    text-align: center;
+    margin: 0;
+    padding: 13em 0 3em 0;
+    cursor: default;
+  }
 
-		#header header {
-			display: inline-block;
-			padding: 0 0 4.5em 0;
-		}
+    #header header {
+      display: inline-block;
+      padding: 0 0 4.5em 0;
+    }
 
-			#header header h1 {
-				font-weight: 600;
-				font-size: 2em;	
-				letter-spacing: 1px;
-			}
+      #header header h1 {
+        font-weight: 600;
+        font-size: 2em; 
+        letter-spacing: 1px;
+      }
 
-			#header header p {
-				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
-				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
-				font-size: 1em;
-				text-transform: uppercase;
-				letter-spacing: 3px;
-				padding: 0em;
-				margin-top: 0.35em;
-			}
+      #header header p {
+        border-top: solid 1px rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 0em;
+        margin-top: 0.35em;
+      }
 
-				#header header p:before {
-					content: '';
-					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
-					margin: 4px 0 0.8em 0;
-				}
+        #header header p:before {
+          content: '';
+          display: block;
+          border-top: solid 1px rgba(255, 255, 255, 0.5);
+          margin: 4px 0 0.8em 0;
+        }
+
+/*Banner*/
+
+#banner {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    background: #00000080;
+    padding: 3em 0.4em ;
+    margin: 50px;
+  }
+#banner h1{
+  font-size: 3em;
+  letter-spacing: 12px;
+  text-align: center;
+  font-family: farray;
+  color: gray;
+  line-height: 100px
+}
+
+ #banner h2 {
+        font-size: 2em;
+        letter-spacing: 9px;
+        text-align: center;
+        line-height: 60px
+      }
+
+ #banner p {
+      margin: 2em;
+    }
+
 
 /*Posisi*/
+
 .kanan{
 position: absolute;
 right: 410px;
@@ -87,36 +110,36 @@ top: 300px
 }
 
 .kiri{
-	position: absolute;
-	left: 400px;
-	top: 300px
+  position: absolute;
+  left: 400px;
+  top: 300px
 }
 .atas{
-	position: absolute;
-	bottom: 400px;
-	left: 400px
+  position: absolute;
+  bottom: 400px;
+  left: 400px
 }
 
 .fullscreen{
-	position: absolute;
-	right: 0px;
-	top:0px;
+  position: absolute;
+  right: 0px;
+  top:0px;
 }
 .bawah{
-	position: relative;
-	bottom: -30px;
-	right: -80px;
+  position: relative;
+  bottom: -30px;
+  right: -80px;
 }
 
 .bawah2{
-	position: relative;
-	bottom: -70px;
-	right: 143px
+  position: relative;
+  bottom: -70px;
+  right: 143px
 }
 .bwah2{
-	position: absolute;
-	bottom: 200px;
-	right:  490px
+  position: absolute;
+  bottom: 200px;
+  right:  490px
 }
 
 /*Animasi*/
