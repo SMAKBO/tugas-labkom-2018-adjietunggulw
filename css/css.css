@@ -23,13 +23,29 @@
       padding: 0 0 1.5em 0;
     }
 
-    p{
-      text-align: left
+    p{  
+      text-align: justify;
     }
 
     span{
   font-size: 1.3em
 }
+
+footer {
+    background: #121e1f;
+    width: 100%;
+    height: 5.9%;
+    position: absolute
+  }
+
+footer h2{
+  color: gray;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+
 /* Header */
 
   #header {
@@ -89,11 +105,20 @@
   line-height: 100px
 }
 
+#banner h1:hover{
+  font-size: 4em
+}
+
  #banner h2 {
         font-size: 2em;
         letter-spacing: 9px;
         text-align: center;
-        line-height: 60px
+        line-height: 60px;
+        font-family: Agency FB
+      }
+ #banner h2:hover{
+      font-size: 3em;
+      color: green
       }
 
  #banner p {
@@ -335,3 +360,85 @@ top: 300px
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
 }
+
+#d-block {
+  width: 100px;
+  height: 100px
+} 
+
+/* Atasan*/
+#atasan {
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ background: #121e1f;
+ height: 2.6em;
+ line-height: 2em;
+ box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.58);
+  }
+
+
+.transparant{
+  background: transparent;
+  border: transparent;
+}
+
+
+/* Effect Hover */
+
+.wrapper {
+  width: 61em;
+  margin: 100px auto ;
+}
+
+.zoom-effect {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.kotak {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.kotak img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 700px;
+}
+
+.zoom-effect:hover .kotak img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+
+}
+
+/* BannerKita */
+#bannerkita
+{
+    position: relative;
+    color: #fff;
+    text-align: left;
+    background: #298650;
+    padding: 1em 1em ;
+    margin: 0px;
+  }
+
+#bannerkita h1{
+  font-size: 3em;
+  letter-spacing: 80px;
+  text-align: center;
+  font-family: farray;
+  color: white;
+  line-height: 100px
+}
+
+#bannerkita h1:hover{
+  color:black;}
+
