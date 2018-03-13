@@ -164,7 +164,7 @@ top: 300px
 .bwah2{
   position: absolute;
   bottom: 200px;
-  right:  490px
+  right:  620px
 }
 
 /*Animasi*/
@@ -386,39 +386,6 @@ top: 300px
 }
 
 
-/* Effect Hover */
-
-.wrapper {
-  width: 61em;
-  margin: 100px auto ;
-}
-
-.zoom-effect {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.kotak {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.kotak img {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
-  width: 700px;
-}
-
-.zoom-effect:hover .kotak img {
-  -webkit-transform: scale(1.08);
-  transform: scale(1.08);
-  opacity: 0.5em
-
-}
 
 /* BannerKita */
 #bannerkita
@@ -443,3 +410,48 @@ top: 300px
 #bannerkita h1:hover{
   color:black;}
 
+
+
+.contohgambarparent {
+    position: relative;
+    width: 100%;
+    height: 600px
+    top: 0;
+    margin: 0 auto;
+    
+  }
+  .contohgambar img {
+    position: absolute;
+    left: 0;
+    width: 500px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  .contohgambar .gambar2:hover {
+    opacity: 0;
+  }
+
+
+  .parent {
+  width: 20px;
+  height: 70px;
+  background: transparent;
+  margin: 300px;
+  position: relative;
+}
+.child {
+  width: 0px;
+  height: 500px;
+  background: #90808300;
+  position: absolute;
+  top: 0%;
+  left: -900%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
