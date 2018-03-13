@@ -416,6 +416,7 @@ top: 300px
 .zoom-effect:hover .kotak img {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
+  opacity: 0.5em
 
 }
 
