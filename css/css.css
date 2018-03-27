@@ -9,7 +9,7 @@
 /* Basic */
 
   body {
-    
+    background-image: url('img/satu.jpg');
     background-attachment: fixed, fixed;
     font-size: 16pt;
     line-height: 1.75em;
@@ -124,6 +124,14 @@ footer h2{
  #banner p {
       margin: 2em;
     }
+
+  #banner img{
+    width: 450px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
 
 
 /*Posisi*/
@@ -454,4 +462,13 @@ top: 300px
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+  .parenttengah{
+  width: 20px;
+  height: 70px;
+  background: transparent;
+  margin: 300px;
+  position: relative;
+  left: 300px
 }
